@@ -64,3 +64,60 @@ footer {
     font-size: 14px; 
 }
 
+.fondodelfooter {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+    background-color: #f8f8f8;
+}
+
+.logo, .contacto, .formulario, .horarios, .redes {
+    padding: 10px;
+}
+
+.logo img {
+    max-width: 100px;
+}
+
+.logo h4 {
+    margin-top: 10px;
+    font-size: 24px; 
+}
+
+.formulario p {
+    margin-bottom: 10px;
+    font-size: 18px; 
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    font-size: 16px; 
+}
+
+button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 20px; 
+}
+
+.horarios p span {
+    display: block;
+    font-size: 28px; 
+}
+
+.redes div {
+    display: flex;
+}
+
+.redes span {
+    margin-right: 10px;
+    font-size: 18px; 
+}
