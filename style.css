@@ -38,3 +38,24 @@ footer {
     top: 0%;
     left: 0%;
 }
+
+/* Estilos para el footer */
+footer {
+    background-image: url(assets/fondofooter.png); /* Reemplaza 'imagen_de_fondo.jpg' con la ruta de tu imagen de fondo */
+    background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el fondo */
+    background-repeat: no-repeat; /* Evita la repetición de la imagen */
+    padding: 30px; /* Agrega un espaciado interno al footer */
+    color: #fff; /* Color del texto en el footer */
+    font-size: 14px; /* Tamaño de fuente del texto en el footer */
+}
+
+/* Estilos para los elementos dentro del footer */
+footer div, footer h3, footer p, footer span {
+    margin-bottom: 10px; /* Agrega un espaciado inferior a los elementos dentro del footer */
+}
+
+/* Estilos para los enlaces dentro del footer */
+footer a {
+    color: #fff; /* Color de los enlaces en el footer */
+    text-decoration: none; /* Elimina la decoración de los enlaces */
+}
