@@ -64,12 +64,3 @@ footer {
     font-size: 14px; 
 }
 
-/* Estilos para los elementos dentro del footer */
-footer div, footer h3, footer p, footer span {
-    margin-bottom: 10px; 
-
-/* Estilos para los enlaces dentro del footer */
-footer a {
-    color: #fff; 
-    text-decoration: none; 
-}
