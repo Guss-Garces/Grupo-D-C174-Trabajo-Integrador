@@ -30,6 +30,23 @@ main {
     top: 0%;
     left: 0%;
 }
+
+/* Estilo para el contenedor de las imágenes */
+main > div {
+    display: inline-block; 
+    vertical-align: top; 
+    text-align: center; 
+    width: 20%; 
+    padding: 0 10px; 
+    box-sizing: border-box; 
+  }
+  
+    main > div img {
+    max-width: 100%; 
+    height: 240px; 
+  }
+  
+
 footer {
     width: 100%;
     height: 160;
@@ -37,4 +54,22 @@ footer {
     color: black;
     top: 0%;
     left: 0%;
+}
+
+/* Estilos para el footer */
+footer {
+    background-image: url(assets/fondofooter.png); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    font-size: 14px; 
+}
+
+/* Estilos para los elementos dentro del footer */
+footer div, footer h3, footer p, footer span {
+    margin-bottom: 10px; 
+
+/* Estilos para los enlaces dentro del footer */
+footer a {
+    color: #fff; 
+    text-decoration: none; 
 }
