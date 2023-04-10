@@ -45,12 +45,12 @@ main > div {
     vertical-align: top; 
     text-align: center; 
     width: 20%; 
-    padding: 0 10px; 
-  
+    padding: 0 20px; 
+    justify-content: space-between;
     box-sizing: border-box;
     object-fit:fill;    
-    box-shadow: 0px 0px 30px 0px rgba(15, 3, 92, 0.5);
-    cursor: pointer
+    box-shadow: 0px 0px 50px 0px rgba(15, 3, 92, 0.5);
+    cursor: pointer;
 
   }
   
