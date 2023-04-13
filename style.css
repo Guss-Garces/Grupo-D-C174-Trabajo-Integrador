@@ -223,3 +223,12 @@ section {
     top: 65%;
     left: 75%;
 }
+.icon-whatsapp{
+    position: relative;
+    left: 2%;
+}
+.icon-mail{
+    position: absolute;
+    top: 0%;
+    left: 20%;
+}
