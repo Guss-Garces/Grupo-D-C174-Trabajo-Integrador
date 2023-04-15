@@ -218,11 +218,6 @@ section {
   }
 
 /*FIN BANNER*/
-.menu {
-    position: absolute;
-    top: 65%;
-    left: 75%;
-}
 .icon-whatsapp{
     position: relative;
     left: 2%;
@@ -231,4 +226,26 @@ section {
     position: absolute;
     top: 0%;
     left: 20%;
+}
+
+/*MENU HORIZONTAL*/
+#menuhorizontal{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+#menuhorizontal a{
+    width: 100px;
+    text-decoration: none;
+    text-align: center;
+    color: blue;
+    background-color: lightblue;
+    padding: 3px 5px;
+    display: block;
+}
+#menuhorizontal li{
+    float: right;
+}
+#menuhorizontal a:hover{
+    background-color: darkgrey;
 }
