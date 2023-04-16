@@ -246,10 +246,21 @@ section {
     
 }
 
-.imagenUno:hover {
-    opacity: 0.4;
-  }
+#banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Agrega una dirección de columna para apilar verticalmente el contenido */
+    text-align: center; /* Centra el texto horizontalmente */
+}
 
+.imagenUno {
+    /* Estilos para la imagen */
+}
+
+.textoBanner {
+    /* Estilos para el texto */
+}
 /*FIN BANNER*/
 .icon-whatsapp{
     position: relative;
