@@ -71,16 +71,18 @@ main > div {
   }
   
     main > div img {
-    max-width: 100%; 
+    max-width: 240px; 
     height: 240px;
   }
   .ecgs h3{
+    font-family: "Segoe UI";
     font-size: 30px;
     margin-bottom: 15px;
     position: relative;
-    left: 2.5%;
+    left: 10%;
   }
   .ventas h3{
+    font-family: "Segoe UI";
     font-size: 30px;
     margin-bottom: 15px;
     position: relative;
@@ -230,6 +232,7 @@ section {
     height: 100%;
 }
 #banner .textoBanner {
+    
     position: absolute;
     top: 40%;
     left: 5%;
