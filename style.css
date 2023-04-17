@@ -47,12 +47,13 @@ main {
     justify-content: left;
     align-items: center;
     padding: 50px;
+    left: 25%;
 }
 .parrafo h4{
     font-size: 30px;
     margin-bottom: 15px;
     position: relative;
-    left: 16%;
+    left: 20%;
 }
 
 /* Estilo para el contenedor de las imágenes */
@@ -243,11 +244,13 @@ section {
     font-size: 35px;
 }
 #banner a {
+    font-family: "Segoe UI";
     display: block;
-    width: 80px;
+    width: 100px;
+    height: 40px;
     color: aliceblue;
     text-decoration: none;
-    padding: 7px;
+    padding: 5px;
     margin-top: 20px;
     border: 3px solid #fff;
     
