@@ -62,7 +62,7 @@ main {
     position: relative;
    
     padding: 50px;
-    left: 35%;
+    left: 37%;
 
 
 
@@ -78,8 +78,8 @@ main > div {
     display: inline-block; 
     vertical-align: top; 
     text-align: center; 
-    width: 20%; 
-    padding: 0 20px; 
+    width: 24%; 
+    padding: 5px 20px; 
     justify-content: space-between;
     box-sizing: border-box;
     object-fit:fill;    
@@ -97,7 +97,7 @@ main > div {
     font-size: 25px;
     margin-bottom: 10px;
     position: relative;
-    left: 18%;
+    left: 22%;
     color: white;
 
   }
@@ -108,7 +108,7 @@ main > div {
     font-size: 25px;
     margin-bottom: 15px;
     position: relative;
-    left: 27%;
+    left: 30%;
   }
   .textoFinal{
     font-family: "Segoe UI";
@@ -119,7 +119,7 @@ main > div {
     flex-direction: column;
     position: relative;
     padding: 50px;
-    left: 32%;
+    left: 37%;
   }
   .textoFinal h4{
     font-size: 25px;
