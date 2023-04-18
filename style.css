@@ -59,16 +59,18 @@ main {
     margin-bottom: 100x;
     display: flex;
     flex-direction: column;
-    justify-content: left;
-    align-items: center;
+    position: relative;
+   
     padding: 50px;
-    left: 25%;
+    left: 35%;
+
+
+
 }
 .parrafo h4{
-    font-size: 30px;
+    font-size: 25px;
     margin-bottom: 15px;
-    position: relative;
-    left: 20%;
+  
 }
 
 /* Estilo para el contenedor de las imágenes */
@@ -95,7 +97,7 @@ main > div {
     font-size: 25px;
     margin-bottom: 10px;
     position: relative;
-    left: 10%;
+    left: 18%;
     color: white;
 
   }
@@ -106,7 +108,7 @@ main > div {
     font-size: 25px;
     margin-bottom: 15px;
     position: relative;
-    left: 20%;
+    left: 27%;
   }
   .textoFinal{
     font-family: "Segoe UI";
@@ -115,15 +117,14 @@ main > div {
     margin-bottom: 100px;
     display: flex;
     flex-direction: column;
-    justify-content: left;
-    align-items: center;
+    position: relative;
     padding: 50px;
+    left: 32%;
   }
   .textoFinal h4{
     font-size: 25px;
     margin-bottom: 15px;
-    position: relative;
-    left: 3%;
+    
   }
 
 footer {
